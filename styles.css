@@ -1,0 +1,59 @@
+body {
+    background-color: #0b4350;
+    color: #0b4350;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ed596b;
+}
+
+form {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d6e8e1;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0b4350;
+    color: #d6e8e1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #032027;
+}
+
+#resultat {
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d6e8e1;
+    color: #0b4350;
+    border-radius: 10px;
+}
+
+/*lyseblå d6e8e1 , rød ed596b, mørkeblå 0b4350*/
