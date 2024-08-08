@@ -39,7 +39,7 @@ function beregn() {
         return { effektTilfortCOP1, effektTilfortCOP2, COP2 , COP1};
     }
 
-    const { effektTilfortCOP1, effektTilfortCOP2, COP2 } = varmpepumpe(cop, varmebehov, tempTilOppvarming);
+    const { effektTilfortCOP1, effektTilfortCOP2, COP2 ,COP1 } = varmpepumpe(cop, varmebehov, tempTilOppvarming);
 
     const timerÅrOppvarming = 5808;
     const CO2ekvivalent = 0.019;
