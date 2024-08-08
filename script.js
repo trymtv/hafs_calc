@@ -36,7 +36,7 @@ function beregn() {
         let effektTilfortCOP1 = levertEffekt / COP1;
         let effektTilfortCOP2 = levertEffekt / COP2;
 
-        return { effektTilfortCOP1, effektTilfortCOP2, COP2 };
+        return { effektTilfortCOP1, effektTilfortCOP2, COP2 , COP1};
     }
 
     const { effektTilfortCOP1, effektTilfortCOP2, COP2 } = varmpepumpe(cop, varmebehov, tempTilOppvarming);
