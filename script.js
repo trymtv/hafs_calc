@@ -29,9 +29,15 @@ function beregn() {
 
     function varmpepumpe(cop, varmebehov, tempTilOppvarming) {
         let rorTemp = tempTilOppvarming === 0 ? 55 : tempTilOppvarming;
-        let COP1 = cop === 0 ? 4 : cop;
-        let COP2 = cop === 0 ? (rorTemp + 273) / (rorTemp - varmevekslserTemp) : cop;
-
+        if( cop == 0){
+            let COP1 = 4; 
+        }
+        else{
+            let COP1 = cop;
+        }
+        //let COP1 = cop === 0 ? 4 : cop;
+        //let COP2 = cop === 0 ? (rorTemp + 273) / (rorTemp - varmevekslserTemp) : cop;
+        let COP2 = (rorTemp + 273) / (rorTemp - varmevekslserTemp);
         let levertEffekt = varmebehov / 2;
         let effektTilfortCOP1 = levertEffekt / COP1;
         let effektTilfortCOP2 = levertEffekt / COP2;
