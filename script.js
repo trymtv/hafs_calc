@@ -72,7 +72,7 @@ function beregn() {
         <h1>Resultat</h1>
         <p>Du kan hente ut ${effekt.toFixed(0)} kW fra ${varmekilde}</p>
         <p>Den høyeste teoretiske COPen med ønsket temperatur er: ${COP2.toFixed(2)}</p>
-        <p>Med en realistisk COP på 4 kan du få en varmepumpe som bruker ${effektTilfortCOP1.toFixed(0)} kW. Den teoretisk mest effektive varmepumpen vil bruke ca. ${effektTilfortCOP2.toFixed(0)} kW</p>
+        <p>Med en COP på ${COP1.toFixed(0)} kan du få en varmepumpe som bruker ${effektTilfortCOP1.toFixed(0)} kW. Den teoretisk mest effektive varmepumpen vil bruke ca. ${effektTilfortCOP2.toFixed(0)} kW</p>
         <p>Maksimal teoretisk COP gjør at du sparer ${(arsforbrukOppvarming - årsforbrukVarmepumpeMax).toFixed(0)} kWh per år og da ca. ${spartCO2max.toFixed(0)} kg CO2e per år. Med den valgte COPen vil du kunne spare ${arsforbrukOppvarming - årsforbrukVarmepumpeMin.toFixed(0)} kWh per år og ca. ${spartCO2min.toFixed(0)} kg CO2e per år</p>
         <p>Dette tilsvarer energien som brukes til å varme opp ${Boliger.toFixed(0)} boliger elektrisk </p>`;
 }
