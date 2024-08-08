@@ -33,16 +33,16 @@
         <label for="varmekilde">Hvor henter du varmen fra?</label>
         <input type="text" id="varmekilde" name="varmekilde"><br><br>
 
-        <label for="volumstrom">Skriv inn volumstrøm av kjølevannet [i liter/sek]:</label>
+        <label for="volumstrom">Skriv inn volumstrøm av kjølevannet [liter/sek]:</label>
         <input type="number" id="volumstrom" name="volumstrom" step="0.01"><br><br>
 
-        <label for="temperatur">Hva er temperaturen på kjølevannet? [i celsius]</label>
+        <label for="temperatur">Hva er temperaturen på kjølevannet? [celsius]</label>
         <input type="number" id="temperatur" name="temperatur" step="0.1"><br><br>
 
-        <label for="temperaturRetur">Hva er ønsket temperatur tilbake til kjøleanlegget? [i celsius]. Hvis du svarer 0 velger vi en standard</label>
+        <label for="temperaturRetur">Hva er ønsket temperatur tilbake til kjøleanlegget? [celsius]. Hvis du svarer 0 velger vi en standard</label>
         <input type="number" id="temperaturRetur" name="temperaturRetur" step="0.1"><br><br>
 
-        <label for="varmebehov">Hvor mye effekt bruker bygget til oppvarming på de kaldeste dagene i året? [oppgi i kW]</label>
+        <label for="varmebehov">Hvor mye effekt bruker bygget til oppvarming på de kaldeste dagene i året? [kW]</label>
         <input type="number" id="varmebehov" name="varmebehov" step="0.1"><br><br>
 
         <label for="tempTilOppvarming">Hvor høy temperatur ønsker du på vannet inn til bygget? Hvis du ikke vet skriv 0</label>
@@ -51,7 +51,7 @@
         <label for="cop">Har du en ønsket COP på varmepumpen? Hvis du ikke har ønsker regner vi ut en teoretisk mulig og en realistisk, skriv da 0</label>
         <input type="number" id="cop" name="cop" step="0.1"><br><br>
 
-        <label for="arsforbrukOppvarming">Hvor mye cirka bruker bygget på oppvarming i løpet av et år? [i kWh]</label>
+        <label for="arsforbrukOppvarming">Hvor mye cirka bruker bygget på oppvarming i løpet av et år? [kWh]</label>
         <input type="number" id="arsforbrukOppvarming" name="arsforbrukOppvarming" step="0.1"><br><br>
 
         <button type="button" onclick="beregn()">Beregn</button>
